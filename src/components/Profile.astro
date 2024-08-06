@@ -1,0 +1,60 @@
+---
+import UserProfileImage from '../assets/user-profile-image.png'
+---
+
+<header class="profile">
+    <div class="profile-picture-content">
+        <figure class="profile-picture">
+            <img src={UserProfileImage.src} alt="This is me!">
+        </figure>
+    </div>
+    <div class="profile-data">
+        <h1 class="profile-name">Kelly Bowlin</h1>
+        <p class="profile-profession">Web Designer</p>
+    </div>
+</header>
+
+<style>
+    .profile {
+        margin-top: 6rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .profile-picture-content {
+        padding: 0.5rem;
+        border-radius: 100%;
+        border: 1px solid var(--zinc-800);
+    }
+
+    .profile-picture {
+        width: 6rem;
+        height: 6rem;
+        border-radius: 100%;
+        border: 1px solid var(--zinc-800);
+        overflow: hidden;
+    }
+
+    .profile-picture img {
+        width: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    .profile-data {
+        margin-top: 1.125rem;
+        text-align: center;
+    }
+
+    .profile-name {
+        font-size: 1.125rem;
+        font-weight: normal;
+    }
+
+    .profile-profession {
+        font-size: 0.875rem;
+        color: var(--zinc-400);
+    }
+</style>
