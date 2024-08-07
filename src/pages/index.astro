@@ -2,20 +2,24 @@
 import Layout from '../layouts/Layout.astro';
 import Profile from '../components/Profile.astro';
 import List from '../components/List.astro';
+import Shadow from '../components/Shadow.astro'
 ---
 
 <Layout title="Welcome to Astro.">
     <main class="container">
         <Profile></Profile>
         <List></List>
+        <Shadow></Shadow>
     </main>
 </Layout>
 
 <style>
 	.container {
+        position: relative;
         margin: auto;
         max-width: 600px;
-        height: auto;
         width: 90%;
+        height: 100vh;
+        overflow: hidden;
     }
 </style>
