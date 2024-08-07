@@ -1,11 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Profile from '../components/Profile.astro';
+import List from '../components/List.astro';
 ---
 
 <Layout title="Welcome to Astro.">
     <main class="container">
         <Profile></Profile>
+        <List></List>
     </main>
 </Layout>
 
@@ -13,7 +15,7 @@ import Profile from '../components/Profile.astro';
 	.container {
         margin: auto;
         max-width: 600px;
-        height: 100vh;
+        height: auto;
         width: 90%;
     }
 </style>
