@@ -1,0 +1,41 @@
+{
+    "name": "Kelly Bowlin",
+    "profession": "Web Designer",
+    "links": [
+        {
+            "icon": "link",
+            "title": "Personal Portfolio",
+            "description": "All my latest design projects"
+        },
+        {
+            "icon": "youtube",
+            "title": "Youtube Channel",
+            "description": "All my latest design projects"
+        },
+        {
+            "icon": "shop",
+            "title": "Template Store",
+            "description": "Discover templates that suit you"
+        },
+        {
+            "icon": "link",
+            "title": "Design Podcast",
+            "description": "Every Friday a new episode"
+        },
+        {
+            "icon": "instagram",
+            "title": "Instagram Profile",
+            "description": "Designer lifestyle and more"
+        },
+        {
+            "icon": "dribble",
+            "title": "Dribbble Shots",
+            "description": "Know more about my work"
+        },
+        {
+            "icon": "link",
+            "title": "Free Resources",
+            "description": "Collection of free resources"
+        }
+    ]
+}
