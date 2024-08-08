@@ -3,37 +3,44 @@
     "profession": "Web Designer",
     "links": [
         {
-            "icon": "link",
+            "url": "#",
+            "icon": "url",
             "title": "Personal Portfolio",
             "description": "All my latest design projects"
         },
         {
+            "url": "#",
             "icon": "youtube",
             "title": "Youtube Channel",
             "description": "All my latest design projects"
         },
         {
+            "url": "#",
             "icon": "shop",
             "title": "Template Store",
             "description": "Discover templates that suit you"
         },
         {
-            "icon": "link",
+            "url": "#",
+            "icon": "url",
             "title": "Design Podcast",
             "description": "Every Friday a new episode"
         },
         {
+            "url": "#",
             "icon": "instagram",
             "title": "Instagram Profile",
             "description": "Designer lifestyle and more"
         },
         {
+            "url": "#",
             "icon": "dribble",
             "title": "Dribbble Shots",
             "description": "Know more about my work"
         },
         {
-            "icon": "link",
+            "url": "#",
+            "icon": "url",
             "title": "Free Resources",
             "description": "Collection of free resources"
         }
