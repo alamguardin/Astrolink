@@ -1,5 +1,6 @@
 ---
 import UserProfileImage from '../assets/user-profile-image.png'
+import dataList from '../data/user.json';
 ---
 
 <header class="profile">
@@ -9,8 +10,8 @@ import UserProfileImage from '../assets/user-profile-image.png'
         </figure>
     </div>
     <div class="profile-data">
-        <h1 class="profile-name">Kelly Bowlin</h1>
-        <p class="profile-profession">Web Designer</p>
+        <h1 class="profile-name">{dataList.name}</h1>
+        <p class="profile-profession">{dataList.profession}</p>
     </div>
 </header>
 
