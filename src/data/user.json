@@ -4,43 +4,43 @@
     "links": [
         {
             "url": "#",
-            "icon": "url",
+            "icon": "link",
             "title": "Personal Portfolio",
             "description": "All my latest design projects"
         },
         {
             "url": "#",
-            "icon": "youtube",
+            "icon": "youtube-fill",
             "title": "Youtube Channel",
             "description": "All my latest design projects"
         },
         {
             "url": "#",
-            "icon": "shop",
+            "icon": "shopping-bag-line",
             "title": "Template Store",
             "description": "Discover templates that suit you"
         },
         {
             "url": "#",
-            "icon": "url",
+            "icon": "link",
             "title": "Design Podcast",
             "description": "Every Friday a new episode"
         },
         {
             "url": "#",
-            "icon": "instagram",
+            "icon": "instagram-line",
             "title": "Instagram Profile",
             "description": "Designer lifestyle and more"
         },
         {
             "url": "#",
-            "icon": "dribble",
+            "icon": "dribbble-line",
             "title": "Dribbble Shots",
             "description": "Know more about my work"
         },
         {
             "url": "#",
-            "icon": "url",
+            "icon": "link",
             "title": "Free Resources",
             "description": "Collection of free resources"
         }
