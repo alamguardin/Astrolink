@@ -34,17 +34,9 @@ To change the content of the templates, simply locate the ```user.json``` file i
 └── package.json
 ```
 
-Oh, you also have a list of icons that you can use for your links by simply putting the name in the ```icon``` key of each link.
+Oh, additionally, you have the entire iconography of [Remixicons](https://remixicon.com/) available. You just need to write the name of the icon within the ```"icon"``` key of each link in the ```user.json``` file.
 
-- ```dribbble```
-- ```facebook```
-- ```instagram```
-- ```linkedin```
-- ```shop```
-- ```twitch```
-- ```url```
-- ```xtwitter```
-- ```youtube```
+
 
 ## 🧞 Commands
 
