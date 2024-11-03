@@ -6,7 +6,7 @@ import Shadow from "../components/Shadow.astro";
 ---
 
 <Layout title="Welcome to Astro.">
-    <main class="container" id="container">
+    <main class="container" id="container" style="overflow: hidden;">
         <Profile></Profile>
         <List></List>
         <Shadow></Shadow>
@@ -52,7 +52,7 @@ import Shadow from "../components/Shadow.astro";
         const list = document.getElementById('list');
         const observerList = list.getBoundingClientRect();
 
-        if (observerList.bottom <  window.innerHeight) {
+        if (observerList.bottom < window.innerHeight) {
             shadow.style.display = 'none';
             mainContent.style.overflow = 'auto';
         }
